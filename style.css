@@ -1,0 +1,38 @@
+* {
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+dialog {
+    padding: 25px;
+    border: none;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+dialog::backdrop {
+    background-color: rgba(76, 10, 53, 0.214);
+    backdrop-filter: blur(1.2px);
+}
+
+button {
+    padding: 8px 15px;
+    background-color: violet;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+input {
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px 0;
+}

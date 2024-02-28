@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dialog</title>
+</head>
+<body>
+    <h1>Dialog Example</h1>
+    <button id="open" onclick="d.showModal()">Open Dialog</button> 
+
+    <dialog id="d">
+        <h2>Deletion</h2>
+        <p>Do you really want to delete this item?</p>        
+
+        <form method="dialog">
+            <p>Form text</p>
+            <button>Close via form</button>
+        </form>
+
+        <!-- OR -->
+
+        <button onclick="d.close()">Yes</button>
+    </dialog>
+</body>
+</html>
+
+
